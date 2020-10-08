@@ -25,7 +25,6 @@ jobs:
       uses: klakegg/actions-hugo@1.0.0
       with:
         version: 0.74.3
-        image: alpine
         env: production
 
     - name: set up QEMU
