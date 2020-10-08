@@ -48,5 +48,5 @@ jobs:
         push: true
         context: .
         tags: |
-          geostyler/geostyler-homepage:latest
-          geostyler/geostyler-homepage:0.0.1
+          nexus.terrestris.de/geostyler/geostyler-homepage:latest
+          nexus.terrestris.de/geostyler/geostyler-homepage:0.0.1
