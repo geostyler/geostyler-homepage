@@ -18,13 +18,10 @@ jobs:
       with:
         fetch-depth: 0
 
-    - name: Checkout submodules
-      run: git submodule update --init --recursive
-
     - name: hugo
       uses: klakegg/actions-hugo@1.0.0
       with:
-        version: 0.75.1
+        version: 0.75.1-ext
         env: production
 
     - name: set up QEMU
