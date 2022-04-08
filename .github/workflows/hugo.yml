@@ -2,11 +2,8 @@ name: hugo
 
 on:
   push:
-    branches:
-        - main
-  pull_request:
-    branches:
-      - main
+    tags:
+        - '*'
 
 jobs:
   build:
@@ -49,4 +46,4 @@ jobs:
         context: .
         tags: |
           nexus.terrestris.de/geostyler/geostyler-homepage:latest
-          nexus.terrestris.de/geostyler/geostyler-homepage:0.0.1
+          nexus.terrestris.de/geostyler/geostyler-homepage:0.0.2
