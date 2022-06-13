@@ -22,7 +22,6 @@ Thank you
 [@kaivolland](https://github.com/kaivolland),
 [@hwbllmnn](https://github.com/hwbllmnn),
 [@chrismayer](https://github.com/chrismayer),
-[@hwbllmnn](https://github.com/hwbllmnn),
 [@jansule](https://github.com/jansule),
 [@vincjo](https://github.com/vincjo)
 and Navid.
