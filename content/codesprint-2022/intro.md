@@ -26,4 +26,4 @@ Thank you
 [@vincjo](https://github.com/vincjo)
 and Navid.
 
-![Code Sprint Members](/images/geostyler-codesprint-members.png).
+![Code Sprint Members](/images/geostyler-codesprint-members.png)

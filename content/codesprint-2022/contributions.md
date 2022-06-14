@@ -83,7 +83,7 @@ Kudos to [@ocruze](https://github.com/ocruze), [@pprev94](https://github.com/ppr
 
 The [geostyler-mapbox-parser](https://github.com/geostyler/geostyler-mapbox-parser) was improved by fixing the opacity handling for MarkSymbolizer and harmonizing its behaviour with the other parsers.
 
-Kudos to [@ocruze](https://github.com/ocruze), [@pprev94](https://github.com/pprev94).
+Kudos to [@ocruze](https://github.com/ocruze) and [@pprev94](https://github.com/pprev94).
 
 ### Refactorings
 
