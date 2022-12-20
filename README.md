@@ -14,5 +14,5 @@ from the root of this project and the site will be served under `localhost:1313`
 
 ## Releases
 
-A new docker image will be releases via github action when pushing a tag. The tagname
+A new docker image will be released via github action when pushing a tag. The tagname
 will be used as the image version.
