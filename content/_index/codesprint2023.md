@@ -19,7 +19,7 @@ The Code Sprint will be held from **08.-12.05.2023** in **Bonn, Germany**. This 
 There are many things that can be improved to make GeoStyler even better, this is the time to participate!
 We welcome everyone who is interested in coding, writing tutorials or documentation, community building and/or improving GeoStyler in general.
 To register for the Code Sprint, you can simply **write an email to reports@geostyler.org** and we will get in touch with you.
-We are excited to meeting you!
+We are excited to meet you!
 
 The GeoStyler Core Team
 
