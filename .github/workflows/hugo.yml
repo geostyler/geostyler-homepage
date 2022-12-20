@@ -46,4 +46,4 @@ jobs:
         context: .
         tags: |
           nexus.terrestris.de/geostyler/geostyler-homepage:latest
-          nexus.terrestris.de/geostyler/geostyler-homepage:0.0.5
+          nexus.terrestris.de/geostyler/geostyler-homepage:${{ github.ref_name }}
