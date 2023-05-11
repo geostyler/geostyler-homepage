@@ -1,7 +1,7 @@
 +++
 fragment = "item"
 date = "2020-10-06"
-weight = 120
+weight = 115
 background = "secondary"
 align = "right"
 

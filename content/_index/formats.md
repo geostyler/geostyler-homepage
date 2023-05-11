@@ -2,10 +2,10 @@
 fragment = "item"
 weight = 110
 
-align = "left"
+align = "right"
 title = "Supported Formats"
 subtitle = "Supports SLD, OpenLayers, QML, Mapbox, GeoJSON, WFS, ..."
-background = "secondary"
+#background = "secondary"
 
 [asset]
     icon = "fas fa-check"
