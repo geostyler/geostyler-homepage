@@ -4,6 +4,12 @@ This repo holds the content for the GeoStyler Homepage geostyler.org.
 
 ## Dev Setup
 
+Install the .git-submodules: 
+
+```
+git submodule update --init --recursive
+```
+
 Run
 
 ```
