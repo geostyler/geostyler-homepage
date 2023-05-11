@@ -5,7 +5,7 @@ weight = 110
 background = "secondary"
 align = "right"
 
-title = "Geostyler UI: Read the docs"
+title = "Geostyler: Read the docs"
 subtitle = "Read our API docs for details on how to use the Geostyler React-library to build flexible and powerfull GUI for styling maps in the browser"
 
 [[buttons]]
