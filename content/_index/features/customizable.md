@@ -3,7 +3,7 @@ title = "Customizable"
 weight = 20
 
 [asset]
-  icon = "fas fa-cubes"
+  icon = "fas fa-wrench"
 +++
 
-High flexibility to easily customize UI components
+Extremely flexible. Customize UI components with ease
