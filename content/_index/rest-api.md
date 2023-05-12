@@ -6,7 +6,7 @@ weight = 120
 align = "right"
 
 title = "GeoStyler Rest API"
-subtitle = "Access Geostyler's style transformation capabilities over the web"
+subtitle = "Access GeoStyler's style transformation capabilities over the web"
 
 [[buttons]]
     text = "Checkout the repository"
