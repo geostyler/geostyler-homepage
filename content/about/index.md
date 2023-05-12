@@ -16,7 +16,7 @@ here to help.
 
 One key project of the ecosystem is the React Library providing developers with widgets and 
 tools to build powerfull and flexible UIs to style geodata over the web. To get an idea of 
-it's features and capabilities you can have a look at the [Demo Application](https://geostyler.github.io/geostyler-demo/) or dive into the [Source Code](https://github.com/geostyler/geostyler-demo). If you want to to learn how to build your own custom map styling applications 
+it's features and capabilities you can have a look at the [Demo Application](https://geostyler.github.io/geostyler-demo/) or dive into the [Source Code](https://github.com/geostyler/geostyler-demo). If you want to learn how to build your own custom map styling applications 
 be sure to look into the [tutorials](/#tutorials) and the [documentation](https://geostyler.github.io/geostyler/latest/index.html).
 
 ### Style Parsers and Transformations
@@ -28,30 +28,30 @@ internally the Geostyler style format. Each style parser is provided as seperate
 repository and NPM package. You can get an overview of the available style parsers and 
 links [here](/parsers). Be aware that not every styling capability of a particular style 
 is supported. Lucky for you, Geostyler is open source and it is easy to contribute and get 
-involved in the community. Styles can either be transformed using javascript in your application 
-or with the Geostyler client (CLI). 
+involved in the community. Styles can either be transformed using JavaScript in your application 
+or with the Geostyler command-line interface (CLI). 
 
 ### Batch Conversion with the Geostyler CLI 
 
-The Geostyler client let's you convert single style files or entire directories from one of the 
-supported styles into another. Assuming you have node installed on your system, installation 
-is as easy as typing `npm install -g geostyler-cli`. Once you have the client installed you 
-can transform a style from QGIS QML format to SLD directly from the command line: 
+The Geostyler command-line interface let's you convert single style files or entire directories from one of the 
+supported formats into another. Assuming you have node installed on your system, installation 
+is as easy as typing `npm install -g geostyler-cli`. Once you have the CLI installed you 
+can transform a style, e.g. from QGIS QML format to SLD directly from the command-line: 
 
 ```
 geostyler -s qgis -t sld -o output.sld input.qml
 ```
 
-Be sure to have a look at the [repository](https://github.com/geostyler/geostyler-cli) for 
+Make sure to have a look at the [repository](https://github.com/geostyler/geostyler-cli) for 
 further instructions and examples. 
 
 ### Conversion over the Web
 
-Maybe for your setup and workflow a conversion over the web via HTTP requests 
-is the way to go. If so, be sure to have a look at the Geostyler API. Using GET and POST 
+Maybe a conversion over the web via HTTP requests is the way to go for your setup and workflow.
+If so, make sure to have a look at the Geostyler REST API. Using GET and POST 
 requests you can transform your style over the web. The REST API is built on top of the popular 
-nodeJS framework express. Check out the [documentation](https://services.meggsimum.de/geostyler-rest/api-docs) and the [repository](https://github.com/geostyler/geostyler-rest). 
-Similar to the example above the following curl call will transform a simple Mapbox (JSON-Format) style to SLD (XML): 
+nodeJS framework `express`. Check out the [documentation](https://services.meggsimum.de/geostyler-rest/api-docs) and the [repository](https://github.com/geostyler/geostyler-rest). 
+Similar to the example above, the following cURL call will transform a simple Mapbox (JSON-Format) style to SLD (XML): 
 
 
 <!-- Erst Rücksprache mit Christian Mayer ob Meggsimum API verlinkt werden kann / soll -->
@@ -112,7 +112,7 @@ You will receive the following XML output as response:
 ### Invitation 
 
 We hope that Geostyler can help you building open geospatial tools 
-and maps. If it does we invite you to get involved: Whether you 
+and maps. If it does, we invite you to get involved: Whether you 
 are a developer providing bug fixes and features or a user improving 
 the documentation or writing tutorials. We wish you happy and stylisch 
 mapping.   
