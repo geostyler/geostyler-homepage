@@ -47,8 +47,6 @@ further instructions and examples.
 
 ### Conversion over the Web
 
-<!-- Besser erst Rücksprache mit Christian Mayer ob Meggsimum API verlinkt werden kann -->
-
 Maybe for your setup and workflow a conversion over the web via HTTP requests 
 is the way to go. If so, be sure to have a look at the Geostyler API. Using GET and POST 
 requests you can transform your style over the web. The REST API is built on top of the popular 
@@ -56,6 +54,9 @@ nodeJS framework express. Check out the [documentation](https://services.meggsim
 Similar to the example above the following curl call will transform a simple Mapbox (JSON-Format) style to SLD (XML): 
 
 
+<!-- Erst Rücksprache mit Christian Mayer ob Meggsimum API verlinkt werden kann / soll -->
+<!-- Alternative: Local dev-host dann müsste oben noch ein Satz rein, der darauf 
+hinweist, dass eine API auf localhost gestartet werden muss -->
 ```sh
 curl -X 'POST' \
   'https://services.meggsimum.de/geostyler-rest/api/rpc/transform?sourceFormat=Mapbox&targetFormat=SLD' \
