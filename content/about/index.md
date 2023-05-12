@@ -2,14 +2,14 @@
 fragment = "content"
 weight = 10
 background = "light"
-title = "About Geostyler"
+title = "About GeoStyler"
 +++
 
-Geostyler is about styling maps. Maybe you are a developer looking for a set of UI components 
+GeoStyler is about styling maps. Maybe you are a developer looking for a set of UI components 
 to build custom and flexible styling widgets for your geospatial application. Maybe you 
 are a cartographer trying to get the style you worked so hard on in your favorite (Q)GIS into the 
 web. Or maybe you are a project lead worrying about migrating all your styles to that new fancy 
-rendering engine everyone (and in particular your boss) is talking about. The Geostyler ecosystem is 
+rendering engine everyone (and in particular your boss) is talking about. The GeoStyler ecosystem is 
 here to help. 
 
 ###  React Library
@@ -21,18 +21,18 @@ be sure to look into the [tutorials](/#tutorials) and the [documentation](https:
 
 ### Style Parsers and Transformations
 
-Geostyler supports multiple style formats used in the open source geospatial ecosystem: 
+GeoStyler supports multiple style formats used in the open source geospatial ecosystem: 
 QML from QGIS, Mapbox JSON used in MapLibre, OpenLayers Styling Format and the OGC-standardized 
 SLD format used by Geoserver. Each of those can be transformed into one of the others. Each style parser is provided as seperate Github 
 repository and NPM package. You can get an overview of the available style parsers and 
 links [here](/parsers). Be aware that not every styling capability of a particular style 
-is supported. Luckily, Geostyler is open source and it is easy to contribute and get 
+is supported. Luckily, GeoStyler is open source and it is easy to contribute and get 
 involved in the community. Styles can either be transformed using JavaScript in your application 
-or with the Geostyler command-line interface (CLI). 
+or with the GeoStyler command-line interface (CLI). 
 
-### Batch Conversion with the Geostyler CLI 
+### Batch Conversion with the GeoStyler CLI 
 
-The Geostyler command-line interface let's you convert single style files or entire directories from one of the 
+The GeoStyler command-line interface let's you convert single style files or entire directories from one of the 
 supported formats into another. Assuming you have node installed on your system, installation 
 is as easy as typing `npm install -g geostyler-cli`. Once you have the CLI installed you 
 can transform a style, e.g. from QGIS QML format to SLD directly from the command-line: 
@@ -47,9 +47,9 @@ further instructions and examples.
 ### Conversion over the Web
 
 Maybe a conversion over the web via HTTP requests is the way to go for your setup and workflow.
-If so, make sure to have a look at the Geostyler REST API. Using GET and POST 
+If so, make sure to have a look at the GeoStyler REST API. Using GET and POST 
 requests you can transform your style over the web. The REST API is built on top of the popular 
-nodeJS framework `express`. Check out the [documentation](https://services.meggsimum.de/geostyler-rest/api-docs) and the [repository](https://github.com/geostyler/geostyler-rest). 
+Node.js framework `express`. Check out the [documentation](https://services.meggsimum.de/geostyler-rest/api-docs) and the [repository](https://github.com/geostyler/geostyler-rest). 
 Similar to the example above, the following cURL call will transform a simple Mapbox (JSON-Format) style to SLD (XML): 
 
 
@@ -80,8 +80,8 @@ curl -X 'POST' \
  
 ### Invitation 
 
-We hope that Geostyler can help you building open geospatial tools 
+We hope that GeoStyler can help you building open geospatial tools 
 and maps. If it does, we invite you to get involved: Whether you 
-are a developer providing bug fixes and features or a user improving 
+are a developer providing bug fixes and features, or a user improving 
 the documentation or writing tutorials. We wish you happy and stylish 
 mapping.   
