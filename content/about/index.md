@@ -9,25 +9,24 @@ Geostyler is about styling maps. Maybe you are a developer looking for a set of 
 to build custom and flexible styling widgets for your geospatial application. Maybe you 
 are a cartographer trying to get the style you worked so hard on in your favorite (Q)GIS into the 
 web. Or maybe you are a project lead worrying about migrating all your styles to that new fancy 
-rendering engine everyone (and particular your boss) is talking about. The Geostyler ecosystem is 
+rendering engine everyone (and in particular your boss) is talking about. The Geostyler ecosystem is 
 here to help. 
 
 ###  React Library
 
 One key project of the ecosystem is the React Library providing developers with widgets and 
-tools to build powerfull and flexible UIs to style geodata over the web. To get an idea of 
-it's features and capabilities you can have a look at the [Demo Application](https://geostyler.github.io/geostyler-demo/) or dive into the [Source Code](https://github.com/geostyler/geostyler-demo). If you want to learn how to build your own custom map styling applications 
+tools to build powerful and flexible UIs to style geodata over the web. To get an idea of 
+its features and capabilities you can have a look at the [Demo Application](https://geostyler.github.io/geostyler-demo/) or dive into the [Source Code](https://github.com/geostyler/geostyler-demo). If you want to learn how to build your own custom map styling applications 
 be sure to look into the [tutorials](/#tutorials) and the [documentation](https://geostyler.github.io/geostyler/latest/index.html).
 
 ### Style Parsers and Transformations
 
 Geostyler supports multiple style formats used in the open source geospatial ecosystem: 
 QML from QGIS, Mapbox JSON used in MapLibre, OpenLayers Styling Format and the OGC-standardized 
-SLD format used by Geoserver. Each of those can be transformed into one another using 
-internally the Geostyler style format. Each style parser is provided as seperate Github 
+SLD format used by Geoserver. Each of those can be transformed into one of the others. Each style parser is provided as seperate Github 
 repository and NPM package. You can get an overview of the available style parsers and 
 links [here](/parsers). Be aware that not every styling capability of a particular style 
-is supported. Lucky for you, Geostyler is open source and it is easy to contribute and get 
+is supported. Luckily, Geostyler is open source and it is easy to contribute and get 
 involved in the community. Styles can either be transformed using JavaScript in your application 
 or with the Geostyler command-line interface (CLI). 
 
@@ -84,9 +83,5 @@ curl -X 'POST' \
 We hope that Geostyler can help you building open geospatial tools 
 and maps. If it does, we invite you to get involved: Whether you 
 are a developer providing bug fixes and features or a user improving 
-the documentation or writing tutorials. We wish you happy and stylisch 
+the documentation or writing tutorials. We wish you happy and stylish 
 mapping.   
-
-
-
-
