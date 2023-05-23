@@ -12,17 +12,10 @@ subtitle = "It's all about style"
     image = "geostyler-globe.svg"
 +++
 
-We are happy to announce our second public GeoStyler Code Sprint!
+The GeoStyler Code Sprint 2023 is over, and it was great! Thank you so much for you contributions and the great time we had together.
 
-The Code Sprint will be held from **08.-12.05.2023** in **Bonn, Germany**. This time the Code Sprint will be a hybrid event, so people can participate **online** or **on site**.
+Special thanks go to [OSGeo](https://www.osgeo.org/) and [FOSSGIS e.V.](https://www.fossgis.de/) for sponsoring this event.
 
-There are many things that can be improved to make GeoStyler even better, this is the time to participate!
-We welcome everyone who is interested in coding, writing tutorials or documentation, community building and/or improving GeoStyler in general.
-To register for the Code Sprint, you can simply **write an email to reports@geostyler.org** and we will get in touch with you.
-We are excited to meet you!
-
-The GeoStyler Core Team
-
-See [here](/codesprint-2022) the fantastic results of the last Code Sprint in 2022.
+Details about the Code Sprint can be seen in the [GeoStyler Code Sprint 2023 Blog Post](/codesprint-2023/).
 
 ---
