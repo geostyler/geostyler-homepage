@@ -16,7 +16,7 @@ During the Code Sprint, we achieved the following:
 
 ### GeoStyler CLI
 
-The [GeoStyler CLI](https://github.com/geostyler/geostyler-cli) can now additionally be used as standalone executable! There is no need to install NodeJs anymore, if you just want to convert between different styling formats without using the UI. The executables can be downloaded for each version from the [repository](https://github.com/geostyler/geostyler-cli/releases). We support Linux, MacOS and Windows.
+The [GeoStyler CLI](https://github.com/geostyler/geostyler-cli) can now additionally be used as standalone executable! There is no need to install Node.js anymore, if you just want to convert between different styling formats without using the UI. The executables can be downloaded for each version from the [repository](https://github.com/geostyler/geostyler-cli/releases). We support Linux, MacOS and Windows.
 
 Besides that, some maintenance work was done on the repository and semantic-release was enabled.
 
