@@ -12,7 +12,7 @@ subtitle = "It's all about style"
     image = "geostyler-globe.svg"
 +++
 
-The GeoStyler Code Sprint 2023 is over, and it was great! Thank you so much for you contributions and the great time we had together.
+The GeoStyler Code Sprint 2023 is over, and it was great! Thank you so much for your contributions and the great time we had together.
 
 Special thanks go to [OSGeo](https://www.osgeo.org/) and [FOSSGIS e.V.](https://www.fossgis.de/) for sponsoring this event financially.
 

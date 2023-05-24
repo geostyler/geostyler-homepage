@@ -32,7 +32,7 @@ Kudos to [@slafayIGN](https://github.com/slafayIGN), [@ocruze](https://github.co
 
 ### Support for Expressions in the UI
 
-After setting the basement for the usage of expressions in the last code sprint in 2022, the GeoStyler UI now also supports expressions. Users are now enabled to create styling rules based on attributes of their dataset. Colors, sizes, strokes, etc. can now all be computed with values derived from the geodata itself. And the best part of it: There is no need to write the expressions by hand. The UI provides a graphical editor just for that. Now, the parsers need to be updated to fully support this feature.
+After setting the basement for the usage of expressions in the last code sprint in 2022, the GeoStyler UI now also supports expressions. Users are now enabled to create styling rules based on attributes of their dataset. Colors, sizes, strokes, etc. can now all be computed with values derived from the geodata itself. So if you want the size of a point representing a city being proportional to the number of its inhabitants, this can now be easily achieved. Many real-world styling challenges can now be adressed in an appropriate, compact and flexible way. And the best part of it: There is no need to write the expressions by hand. The UI provides a graphical editor just for that. Now, the parsers need to be updated to fully support this feature.
 
 ![Expressions UI example](/images/geostyler-codesprint-2023-expressions.gif)
 
@@ -54,7 +54,7 @@ Kudos to [@dnlkoch](https://github.com/dnlkoch), [@SchulA](https://github.com/Sc
 
 We spent quite some time discussing the [geostyler-mapbox-parser](https://github.com/geostyler/geostyler-mapbox-parser) and how we can integrate the concept of map-based styles (which mapbox is using) in addition to layer-based styles (which SLD is using) in GeoStyler. We came to the conclusion that layers in mapbox fit quite well to the idea of rules in layer-based styles. Both are entities consisting of filters, scale denominators and styling instructions. With the support for expressions in GeoStyler in particular, we should now be able to advance the development of the geostyler-mapbox-parser and make it a first class citizen in the GeoStyler ecosystem.
 
-Besides that, the geostyler-mapbox-parser is now able create lossless conversions between mapbox styles and geostyler-styles.
+Besides that, the geostyler-mapbox-parser was enhanced by splitting or merging styling rules where needed. A consistent style structure after parsing is still being maintained by enriching the mapbox-style with metadata.
 
 Kudos to [@ocruze](https://github.com/ocruze), [@pprev94](https://github.com/pprev94), [@slafayIGN](https://github.com/slafayIGN), [@kaivolland](https://github.com/kaivolland), [@jansule](https://github.com/jansule) and [@ahocevar](https://github.com/ahocevar).
 

@@ -44,5 +44,9 @@ Thank you, [OSGeo](https://www.osgeo.org/), for sponsoring the social event!
 
 Thank you, [FOSSGIS e.V.](https://www.fossgis.de/), for sponsoring the catering for the whole week!
 
+We also want to thank [terrestris GmbH & Co. KG](https://www.terrestris.de) for providing the facilities and handing out these great GeoStyler cups!
+
+Additional thanks to all companies that supported this event by allowing their employees to participate!
+
 All of this helped us strengthening the bonds between all participants and thereby, you play an important
 role in growing the GeoStyler community.
