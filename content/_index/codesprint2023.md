@@ -14,8 +14,8 @@ subtitle = "It's all about style"
 
 The GeoStyler Code Sprint 2023 is over, and it was great! Thank you so much for you contributions and the great time we had together.
 
-Special thanks go to [OSGeo](https://www.osgeo.org/) and [FOSSGIS e.V.](https://www.fossgis.de/) for sponsoring this event.
+Special thanks go to [OSGeo](https://www.osgeo.org/) and [FOSSGIS e.V.](https://www.fossgis.de/) for sponsoring this event financially.
 
-Details about the Code Sprint can be seen in the [GeoStyler Code Sprint 2023 Blog Post](/codesprint-2023/).
+Details about the Code Sprint can be seen in the [GeoStyler Code Sprint 2023 blog post](/codesprint-2023/).
 
 ---

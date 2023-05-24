@@ -40,9 +40,9 @@ Kudos to [@kaivolland](https://github.com/kaivolland).
 
 ### GeoStyler UI
 
-Besides the support for expressions, the GeoStyler UI was improved in various ways. We are currently adding icons to options in dropdowns, so users can directly see what an option stands for. What was the difference again between butt, round, and square line caps? The answer will be directly graspable from the editor.
+Besides the support for expressions, the GeoStyler UI was improved in various ways. We are currently adding icons to options in dropdowns, so users can directly see what an option stands for. What was the difference again between `butt`, `round`, and `square` line caps? The answer will be directly graspable from the editor.
 
-We also cleaned up some dependencies, make use of Vite for creating our browser builds, improved the test performance, and upgraded to antd 5. As part of this, we replaced the windows with antd modals and did some polishing here and there.
+We also cleaned up some dependencies, make use of [Vite](https://vitejs.dev/) for creating our browser builds, improved the test performance, and upgraded to antd 5. As part of this, we replaced the windows with antd modals and did some polishing here and there.
 
 The previously introduced `GeoStylerContext` was also implemented in various components, which will simplify adjusting the GeoStyler UI to your needs.
 
