@@ -6,7 +6,7 @@ background = "light"
 #title = "GeoStyler Code Sprint 2023"
 +++
 
-From Monday, 08.05 until Friday, 12.05.2023 the second GeoStyler Code Sprint took place. 11 motivated coders from all over the world participated and provided great contributions to the GeoStyler project.
+From Monday, 08.05 until Friday, 12.05.2023 the second GeoStyler Code Sprint took place. 12 motivated coders from all over the world participated and provided great contributions to the GeoStyler project.
 
 We want to thank everyone who contributed to the GeoStyler project. Thank you for your motivation and engagement, for all your great contributions, for all the ideas that came up during the code sprint and for all the fun we had during this week! You are awesome!
 
@@ -21,7 +21,8 @@ Thank you
 [@hwbllmnn](https://github.com/hwbllmnn),
 [@jansule](https://github.com/jansule),
 [@SchulA](https://github.com/SchulA),
-[@OSHistory](https://github.com/OSHistory)
+[@OSHistory](https://github.com/OSHistory),
+[@marcjansen](https://github.com/marcjansen)
 and [@ahocevar](https://github.com/ahocevar).
 
 ![Code Sprint Members](/images/geostyler-codesprint-2023-members.jpg)
