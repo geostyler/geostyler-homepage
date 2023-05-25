@@ -92,6 +92,8 @@ The GeoStyler repositories are now transitioning to using issue forms instead of
 
 The [GeoStyler Beginner Workshop](https://geostyler.github.io/geostyler-beginner-workshop/) is currently being updated and will use Docusaurus instead of Jekyll as static site generator. The content of the workshop will also be updated in the future, to reflect the latest state of GeoStyler.
 
+The robustness of [geostyler-rest](https://github.com/geostyler/geostyler-rest) was improved by better handling unknown input and output formats, or inconsistent styles.
+
 Kudos to [@slafayIGN](https://github.com/slafayIGN), [@OSHistory](https://github.com/OSHistory) and [@jansule](https://github.com/jansule).
 
 ### Conference talks and other media
