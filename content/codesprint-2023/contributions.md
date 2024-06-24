@@ -3,7 +3,7 @@ fragment = "content"
 weight = 40
 background = "light"
 
-#title = "GeoStyler Code Sprint 2023"
+#title = "GeoStyler Code Sprint 2024"
 +++
 
 ## Contributions
