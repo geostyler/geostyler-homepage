@@ -22,7 +22,7 @@ for parsing of ArcGIS Pro styles (.lyrx format)! The parser is based on the [Geo
 and was now ported from Python into TypeScript and integrated into the GeoStyler GitHub organisation, so that
 the parser integrates seamlessly with all the other existing parsers! That means that it is now possible to convert
 ArcGIS styles to QGIS, Mapbox, OpenLayers, and SLD! So far reading ArcGIS Pro styles with
-TODO list some capabilities here
+features layers, meaning point, line, polygon or text classes, with margin, padding, offset, colors and more is possible! Expression are already implemented but needs some corrections. Handling icons is a work in progress.
 is supported.
 
 Kudos to 
