@@ -108,7 +108,7 @@ Kudos to
 ### GeoStyler Visual Comparator
 
 A not-yet published tool for visually comparing different styles that were processed by GeoStyler was improved by adding
-additional styles to compare as well as minor UI tweaks.
+additional styles to compare and tweaking the UI.
 
 ![GeoStyler Visual Comparator](/images/geostyler-codesprint-2024-comparator.png)
 
