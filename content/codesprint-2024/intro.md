@@ -25,7 +25,7 @@ Thank you
 [@pprev94](https://github.com/pprev94),
 [@jwkaltz](https://github.com/jwkaltz),
 [@ger-benjamin](https://github.com/ger-benjamin),
-Line,
+[@linegallen](https://github.com/linegallen),
 [@sarastreit](https://github.com/saraStreit),
 [@myriamfischer](https://github.com/myriamfischer),
 [@thomasmarti](https://github.com/thomasmarti),
@@ -51,7 +51,7 @@ We also want to thank the sponsors of this year's code sprint:
 
 Thank you, [IGN](https://www.ign.fr), for hosting the code sprint and providing the fantastic catering!
 
-Thank you, [FOSSGIS e.V.](https://www.fossgis.de/), for funding the travel expences for many of our participants!
+Thank you, [FOSSGIS e.V.](https://www.fossgis.de/), for funding the travel expenses for many of our participants!
 
 Thank you, [Pozi](https://pozi.com/) and all other [OpenCollective contributors](https://opencollective.com/geostyler), for sponsoring the social event!
 

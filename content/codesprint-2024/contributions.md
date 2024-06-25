@@ -10,19 +10,14 @@ background = "light"
 
 During the Code Sprint, we achieved the following:
 
-<img src="/images/geostyler-codesprint-2024-stats.png" alt="GeoStyler Code Sprint Stats" />
-
-<br />
-
 ### GeoStyler ArcGIS Parser
 
 One of the probably biggest and hopefully most impactful achievements is the
 introduction of the [geostyler-lyrx-parser](https://github.com/geostyler/geostyler-lyrx-parser) which allows
 for parsing of ArcGIS Pro styles (.lyrx format)! The parser is based on the [GeoCat/bridge-style](https://github.com/GeoCat/bridge-style)
-and was ported from Python into TypeScript. It is now and integrated into the GeoStyler eco sytem, so that it integrates seamlessly with all the other existing parsers! That means that it is now possible to convert
+and was ported from Python into TypeScript. It is now integrated into the GeoStyler eco sytem, so that it integrates seamlessly with all the other existing parsers! That means that it is now possible to convert
 ArcGIS styles to QGIS, Mapbox, OpenLayers, and SLD! So far reading ArcGIS Pro styles with
-features layers, meaning point, line, polygon or text classes, with margin, padding, offset, colors and more is possible! Expression are already implemented but needs some corrections. Handling icons is a work in progress.
-is supported.
+features layers, meaning point, line, polygon or text classes, with margin, padding, offset, colors and more is possible! Expressions are already implemented but need some corrections. Handling icons is a work in progress.
 
 Kudos to 
 [@ger-benjamin](https://github.com/ger-benjamin),
@@ -41,23 +36,24 @@ Kudos to
 [@eschuh](https://github.com/eschuh),
 [@bsteinemann](https://github.com/bsteinemann).
 
-### GeoStyler CLI
+### GeoStyler QGIS Plugin
 
-Dependencies in the [geostyler-cli](https://github.com/geostyler/geostyler-cli) were upgraded to their latest versions. Furthermore,
-the executing commands for the different environments such as node, npx, binary executable, were harmonized. For all environments,
-the executing command will now be `geostyler-cli`!
+Making use of the [geostyler-cli](https://github.com/geostyler/geostyler-cli),
+a new QGIS Plugin called [geostyler-qgis-plugin](https://github.com/geostyler/geostyler-qgis-plugin)
+was created that allows exporting layer styles from QGIS into the other formats supported by GeoStyler. In the future, we also intend
+to extend the plugin with importing capabilities, so that users are able to import other styling formats into QGIS.
+
+![GeoStyler QGIS Plugin](/images/geostyler-codesprint-2024-qgis-plugin.png)
 
 Kudos to
 [@geographika](https://github.com/geographika),
 [@jansule](https://github.com/jansule).
 
-### GeoStyler QGIS Plugin
+### GeoStyler CLI
 
-Making use of the above mentioned geostyler-cli, a new QGIS Plugin called [geostyler-qgis-plugin](https://github.com/geostyler/geostyler-qgis-plugin)
-was created that allows exporting layer styles from QGIS into the other formats supported by GeoStyler. In the future, we also intend
-to extend the plugin with importing capabilities, so that users are able to import other styling formats into QGIS.
-
-![GeoStyler QGIS Plugin](/images/geostyler-codesprint-2024-qgis-plugin.png)
+Dependencies in the [geostyler-cli](https://github.com/geostyler/geostyler-cli) were upgraded to their latest versions. Furthermore,
+the executing commands for the different environments such as node, npx, binary executable, were harmonized. For all environments,
+the executing command will now be `geostyler-cli`!
 
 Kudos to
 [@geographika](https://github.com/geographika),
@@ -97,7 +93,7 @@ Kudos to
 ### GeoStyler UI
 
 The [GeoStyler UI](https://github.com/geostyler/geostyler) was improved by adding an upload file button to the code editor.
-Additionaly, the expressions UI was extended with elements for the `case` and `step` function expressions.
+Additionally, the expressions UI was extended with elements for the `case` and `step` function expressions.
 
 ![GeoStyler UI Step Expression](/images/geostyler-codesprint-2024-expression-step.png)
 
@@ -124,7 +120,7 @@ the homepage. The new design is intended to better deliver the message of GeoSty
 ![GeoStyler Homepage Design](/images/geostyler-codesprint-2024-design.png)
 
 Kudos to
-Line,
+[@linegallen](https://github.com/linegallen),
 [@sarastreit](https://github.com/saraStreit),
 [@antonellostruzzolino](https://github.com/antonellostruzzolino),
 [@slafayIGN](https://github.com/slafayIGN),
@@ -144,6 +140,8 @@ Kudos to
 The [GeoStyler REST API](https://github.com/geostyler/geostyler-rest) received some updates and now makes use
 of bun.
 
+![GeoStyler Rest Image](/images/geostyler-codesprint-2024-rest.png)
+
 Kudos to
 [@kaivolland](https://github.com/kaivolland).
 
@@ -160,3 +158,12 @@ Kudos to
 [@bsteinemann](https://github.com/bsteinemann),
 [@geographika](https://github.com/geographika),
 [@jansule](https://github.com/jansule).
+
+### Code Sprint Releases
+
+* `geostyler-style` version [9.0.1](https://github.com/geostyler/geostyler-style/releases/tag/v9.0.1)
+* TODO add other releases here as well
+
+### Stats
+
+<img src="/images/geostyler-codesprint-2024-stats.png" alt="GeoStyler Code Sprint Stats" />
