@@ -19,8 +19,7 @@ During the Code Sprint, we achieved the following:
 One of the probably biggest and hopefully most impactful achievements is the
 introduction of the [geostyler-lyrx-parser](https://github.com/geostyler/geostyler-lyrx-parser) which allows
 for parsing of ArcGIS Pro styles (.lyrx format)! The parser is based on the [GeoCat/bridge-style](https://github.com/GeoCat/bridge-style)
-and was now ported from Python into TypeScript and integrated into the GeoStyler GitHub organisation, so that
-the parser integrates seamlessly with all the other existing parsers! That means that it is now possible to convert
+and was ported from Python into TypeScript. It is now and integrated into the GeoStyler eco sytem, so that it integrates seamlessly with all the other existing parsers! That means that it is now possible to convert
 ArcGIS styles to QGIS, Mapbox, OpenLayers, and SLD! So far reading ArcGIS Pro styles with
 features layers, meaning point, line, polygon or text classes, with margin, padding, offset, colors and more is possible! Expression are already implemented but needs some corrections. Handling icons is a work in progress.
 is supported.
