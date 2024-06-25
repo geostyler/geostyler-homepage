@@ -97,7 +97,7 @@ Kudos to
 ### GeoStyler UI
 
 The [GeoStyler UI](https://github.com/geostyler/geostyler) was improved by adding an upload file button to the code editor.
-Additionaly, the expresions UI was extended with elements for the `case` and `step` function expressions.
+Additionaly, the expressions UI was extended with elements for the `case` and `step` function expressions.
 
 ![GeoStyler UI Step Expression](/images/geostyler-codesprint-2024-expression-step.png)
 
