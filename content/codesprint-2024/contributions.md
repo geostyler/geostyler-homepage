@@ -145,6 +145,17 @@ of bun.
 Kudos to
 [@kaivolland](https://github.com/kaivolland).
 
+### GeoStyler and the French State Design System
+
+IGN started working on integrating the GeoStyler UI components into applications using the
+[French State Design System](https://www.systeme-de-design.gouv.fr/),
+showcasing the customization possibilities of these components.
+
+![GeoStyler in French State Design System](/images/geostyler-codesprint-2024-ign-design.png)
+
+Kudos to
+[@ocruze](https://github.com/ocruze).
+
 ### Additional achievements
 
 Besides the above mentioned achievements, we also managed to upgrade dependencies, updated pipelines to
