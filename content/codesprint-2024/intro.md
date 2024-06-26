@@ -60,3 +60,10 @@ Thank you, [terrestris GmbH & Co. KG](https://www.terrestris.de), for handing ou
 Additional thanks to all companies that supported this event by allowing their employees to participate!
 
 Without you the code sprint would not be possible and we would miss out on such a great community!
+
+So thank you,
+[@camptocamp](https://github.com/camptocamp),
+[@compassinformatics](https://github.com/compassinformatics),
+[@IGNF](https://github.com/IGNF),
+[@kanton-aargau](https://github.com/kanton-aargau),
+[@terrestris](https://github.com/terrestris)!
