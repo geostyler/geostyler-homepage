@@ -170,11 +170,6 @@ Kudos to
 [@geographika](https://github.com/geographika),
 [@jansule](https://github.com/jansule).
 
-### Code Sprint Releases
-
-* `geostyler-style` version [9.0.1](https://github.com/geostyler/geostyler-style/releases/tag/v9.0.1)
-* TODO add other releases here as well
-
 ### Stats
 
 <img src="/images/geostyler-codesprint-2024-stats.png" alt="GeoStyler Code Sprint Stats" />
