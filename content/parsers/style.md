@@ -78,4 +78,16 @@ title = "Styling Formats"
     [[rows.values]]
         icon = "fab fa-npm"
         url = "https://www.npmjs.com/package/geostyler-mapfile-parser"
+
+[[rows]]
+    [[rows.values]]
+        text = "ArcGIS Pro (lyrx)"
+    [[rows.values]]
+        text = "geostyler-lyrx-parser"
+    [[rows.values]]
+        icon = "fab fa-github"
+        url = "https://github.com/geostyler/geostyler-lyrx-parser"
+    [[rows.values]]
+        icon = "fab fa-npm"
+        url = "https://www.npmjs.com/package/geostyler-lyrx-parser"
 +++
