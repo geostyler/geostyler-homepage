@@ -128,7 +128,7 @@ Kudos to
 
 ### ESModule Builds
 
-The GeoStyler packages were harmonized and now all provide ESModule builds in their distrubtions. We also moved from
+The GeoStyler packages were harmonized and now all provide ESModule builds in their distributions. We also moved from
 webpack to vite and vitest in order to simplify our tooling.
 
 Kudos to
