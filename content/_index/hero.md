@@ -19,7 +19,7 @@ subtitle = "Generic Styler for GeoData"
 
 [[buttons]]
   text = "Demo"
-  url = "https://geostyler.github.io/geostyler-demo"
+  url = "https://demo.geostyler.org"
   color = "dark" # primary, secondary, success, danger, warning, info, light, dark, link - default: primary
 
 [[buttons]]
