@@ -14,7 +14,7 @@ subtitle = "Access GeoStyler's style transformation capabilities over the web"
 
 [[buttons]]
     text = "Demo"
-    url = "https://services.meggsimum.de/geostyler-rest/api-docs/"
+    url = "https://rest.geostyler.org"
 
 
 [asset]
