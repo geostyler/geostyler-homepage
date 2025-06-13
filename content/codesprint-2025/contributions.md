@@ -59,6 +59,10 @@ We continued our push toward a better user experience, with several improvements
   The ScaleDenominator components have been improved, by providing a predefined set of scales
   as well as adding error information so that chances of making errors are less likely.
 
+* **Make Multi Edit optional**
+  The RuleTable component now has an optional layout without select and multi edit options.
+  When enabled, actions like duplicate and delete rule are placed at the end of each row.
+
 * **Improving GeoStyler Builds**
   Imports in GeoStyler builds now include the _.js_ extension, thereby strongly
   facilitating the integration into existing applications.
