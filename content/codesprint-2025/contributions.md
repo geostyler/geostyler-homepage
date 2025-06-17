@@ -67,13 +67,17 @@ We continued our push toward a better user experience, with several improvements
   Imports in GeoStyler builds now include the _.js_ extension, thereby strongly
   facilitating the integration into existing applications.
 
+* **Improving CI**
+  We now run several pipelines using Bun, resulting in notably faster CI runs.
+
 Kudos to
-[@kaivolland](https://github.com/kaivolland),
 [@slafayIGN](https://github.com/slafayIGN),
 [@ocruze](https://github.com/ocruze),
 [@pprev94](https://github.com/pprev94),
 [@cbrousseau1](https://github.com/cbrousseau1),
-[@mircmo](https://github.com/mircmo).
+[@mircmo](https://github.com/mircmo),
+[@hwbllmnn](https://github.com/hwbllmnn),
+[@kaivolland](https://github.com/kaivolland).
 
 ### CLI Upgrades: Automation Ready
 
