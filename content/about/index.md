@@ -48,17 +48,13 @@ further instructions and examples.
 
 Maybe a conversion over the web via HTTP requests is the way to go for your setup and workflow.
 If so, make sure to have a look at the GeoStyler REST API. Using GET and POST 
-requests you can transform your style over the web. The REST API is built on top of the popular 
-Node.js framework `express`. Check out the [documentation](https://services.meggsimum.de/geostyler-rest/api-docs) and the [repository](https://github.com/geostyler/geostyler-rest). 
+requests you can transform your style over the web. Check out the
+[documentation](https://rest.geostyler.org/api-docs) and the [repository](https://github.com/geostyler/geostyler-rest).
 Similar to the example above, the following cURL call will transform a simple Mapbox (JSON-Format) style to SLD (XML): 
 
-
-<!-- Erst Rücksprache mit Christian Mayer ob Meggsimum API verlinkt werden kann / soll -->
-<!-- Alternative: Local dev-host dann müsste oben noch ein Satz rein, der darauf 
-hinweist, dass eine API auf localhost gestartet werden muss -->
 ```sh
 curl -X 'POST' \
-  'https://services.meggsimum.de/geostyler-rest/api/rpc/transform?sourceFormat=Mapbox&targetFormat=SLD' \
+  'https://rest.geostyler.org/api/transform?sourceFormat=Mapbox&targetFormat=SLD' \
   -H 'accept: application/json' \
   -H 'Content-Type: application/json' \
   -d '{
@@ -84,4 +80,4 @@ We hope that GeoStyler can help you building open geospatial tools
 and maps. If it does, we invite you to get involved: Whether you 
 are a developer providing bug fixes and features, or a user improving 
 the documentation or writing tutorials. We wish you happy and stylish 
-mapping.   
+mapping.

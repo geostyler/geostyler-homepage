@@ -1,8 +1,7 @@
 +++
 fragment = "item"
-date = "2025-04-08"
+date = "2025-06-13"
 weight = 80
-#background = "yellow"
 align = "left"
 
 title = "GeoStyler Code Sprint 2025"
@@ -12,20 +11,13 @@ subtitle = "It's all about style again"
     image = "geostyler-globe.svg"
 +++
 
-We are happy to announce the next GeoStyler Code Sprint!
+The GeoStyler Code Sprint 2025 is over and it was great!
 
-The Code Sprint will be held from **02.-06.06.2025** in **Bussigny, Switzerland**.
+Take a look at the [GeoStyler Code Sprint 2025 blog post](/codesprint-2025) for
+the fantastic results.
 
-There are many things that can be improved to make GeoStyler even better, this is the time to participate!
-
-We welcome everyone who is interested in coding, writing tutorials or documentation, community building and/or improving GeoStyler in general.
-
-To register for the Code Sprint, simply **write an email to reports@geostyler.org** and we will get in touch with you.
-
-We are excited to meet you!
+Thanks to all contributors for making it such a wonderful event!
 
 The GeoStyler Core Team
-
-See [here](/codesprint-2024) the fantastic results of the last Code Sprint in 2024.
 
 ---
