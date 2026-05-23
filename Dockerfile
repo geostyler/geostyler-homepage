@@ -1,3 +1,3 @@
-FROM nginx:1.19.3-alpine
+FROM nginx:1.31.1-alpine
 
 COPY public/ /usr/share/nginx/html
