@@ -5,8 +5,8 @@ weight = 135
 #background = "secondary"
 align = "left"
 
-title = "OSGeo Community Project"
-subtitle = "GeoStyler is an official OSGeo Community Project"
+title = "OSGeo Project"
+subtitle = "GeoStyler is an official OSGeo Project"
 
 [[buttons]]
     text = "Check out the project page"
@@ -16,6 +16,6 @@ subtitle = "GeoStyler is an official OSGeo Community Project"
     image = "logo-osgeo.svg"
 +++
 
-As an official OSGeo Community Project, we directly support and interact with the Open Source Geo Community
+As an official OSGeo Project, we directly support and interact with the Open Source Geo Community
 so that everyone can benefit.
 
